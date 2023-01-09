@@ -1,0 +1,85 @@
+html{
+    scroll-behavior: smooth;
+}
+body
+{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header
+{
+    margin-top: 30px;
+}
+
+.submitButton
+{
+    width: 200px;
+}
+
+textarea
+{
+    width: 90%;
+}
+.youtube_video{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+td,th{
+    padding: 10px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+table,td,th{
+    border: 2px solid black;
+}
+.icon{
+    width: 50px;
+    padding: 10px;
+}
+hr{
+    width: 90%;
+    margin: auto;
+    height: 2px;
+    border: none;
+    background: black;
+}
+.course{
+    margin: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+    width: 340px;
+    margin-bottom: 50px;
+}
+.course:hover{
+    box-shadow: 0 15px 30px 0 rgba(0, 63, 250, 0.438);
+}
+.course_img{
+    padding: 10px;
+    border-radius: 20px;
+}
+.container{
+    padding: 10px;
+    text-align: left;
+}
+.card_desc{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.offer{
+    display: inline;
+    border-radius: 6px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: lightgreen;
+}
+.cards{
+    text-align: center;
+}
